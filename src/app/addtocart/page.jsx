@@ -58,7 +58,7 @@ const AddToCart = () => {
   };
 
   return (
-    <>
+    <div className="bg-black text-white">
       <div className="text-center">
         <h1
           className="text-[#9200f7] text-6xl m-5 tracking-normal m-5"
@@ -173,7 +173,7 @@ const AddToCart = () => {
           </button>
         </div> */}
       </div>
-    </>
+    </div>
   );
 };
 

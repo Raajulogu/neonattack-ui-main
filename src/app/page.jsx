@@ -101,7 +101,7 @@ export default function Home() {
     router.push("/addtocart");
   };
   return (
-    <>
+    <div className="bg-black text-white">
       <br />
       <br />
       <div className="relative">
@@ -436,6 +436,6 @@ export default function Home() {
         </div>
       </div>
       <br />
-    </>
+    </div>
   );
 }
